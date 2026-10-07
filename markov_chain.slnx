@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="markov_chain.vcxproj" Id="2bd4594f-6844-43ea-8d60-108ef3aa6383" />
+</Solution>

@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\simulation">
+      <UniqueIdentifier>{6c6c8eb3-2fd6-4eab-bc2f-3e6f774e9150}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\simulation">
+      <UniqueIdentifier>{17f6d8a9-a865-43c8-86fd-3722643b8f31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\model">
+      <UniqueIdentifier>{603328bd-4780-4e61-9f26-41286459c235}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\model">
+      <UniqueIdentifier>{c6a8650a-e244-4062-a399-325e676108c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\calculation">
+      <UniqueIdentifier>{05a2d691-aa0b-421a-aa21-84b8b1b4462e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\calculation">
+      <UniqueIdentifier>{bfb2b82a-2836-4eef-8f0f-17f33ee07ab6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\generation">
+      <UniqueIdentifier>{e353c3ba-0f9a-4bc4-87ed-c3ba24bc76ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\generation">
+      <UniqueIdentifier>{782b3b8d-030d-4695-9215-81463dd621df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\experiment">
+      <UniqueIdentifier>{ff80974d-bbd8-486c-b546-fec9a26e77b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\experiment">
+      <UniqueIdentifier>{a5e8bad7-c8bb-4ed6-8dd5-b01429f6fb30}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="simulator.cpp">
+      <Filter>Source Files\simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="path.cpp">
+      <Filter>Source Files\simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="absorbing_chain.cpp">
+      <Filter>Source Files\model</Filter>
+    </ClCompile>
+    <ClCompile Include="graph.cpp">
+      <Filter>Source Files\model</Filter>
+    </ClCompile>
+    <ClCompile Include="markov_chain.cpp">
+      <Filter>Source Files\model</Filter>
+    </ClCompile>
+    <ClCompile Include="theoretical_calculator.cpp">
+      <Filter>Source Files\calculation</Filter>
+    </ClCompile>
+    <ClCompile Include="graph_generator.cpp">
+      <Filter>Source Files\generation</Filter>
+    </ClCompile>
+    <ClCompile Include="graph_model.cpp">
+      <Filter>Source Files\model</Filter>
+    </ClCompile>
+    <ClCompile Include="experiment_runner.cpp">
+      <Filter>Source Files\experiment</Filter>
+    </ClCompile>
+    <ClCompile Include="coursework_experiments.cpp">
+      <Filter>Source Files\experiment</Filter>
+    </ClCompile>
+    <ClCompile Include="transition_matrix_builder.cpp">
+      <Filter>Source Files\model</Filter>
+    </ClCompile>
+    <ClCompile Include="theory_result.h">
+      <Filter>Header Files\calculation</Filter>
+    </ClCompile>
+    <ClCompile Include="theory_analyzer.cpp">
+      <Filter>Source Files\calculation</Filter>
+    </ClCompile>
+    <ClCompile Include="experiment_graph_builder.cpp">
+      <Filter>Source Files\experiment</Filter>
+    </ClCompile>
+    <ClCompile Include="csv_manager.cpp">
+      <Filter>Source Files\experiment</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="simulator.h">
+      <Filter>Header Files\simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="path.h">
+      <Filter>Header Files\simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="absorbing_chain.h">
+      <Filter>Header Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="graph.h">
+      <Filter>Header Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="markov_chain.h">
+      <Filter>Header Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="theoretical_calculator.h">
+      <Filter>Header Files\calculation</Filter>
+    </ClInclude>
+    <ClInclude Include="graph_generator.h">
+      <Filter>Header Files\generation</Filter>
+    </ClInclude>
+    <ClInclude Include="graph_model.h">
+      <Filter>Header Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="experiment_runner.h">
+      <Filter>Header Files\experiment</Filter>
+    </ClInclude>
+    <ClInclude Include="coursework_experiments.h">
+      <Filter>Header Files\experiment</Filter>
+    </ClInclude>
+    <ClInclude Include="transition_matrix_builder.h">
+      <Filter>Header Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="theory_analyzer.h">
+      <Filter>Header Files\calculation</Filter>
+    </ClInclude>
+    <ClInclude Include="experiment_graph_builder.h">
+      <Filter>Header Files\experiment</Filter>
+    </ClInclude>
+    <ClInclude Include="csv_manager.h">
+      <Filter>Header Files\experiment</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

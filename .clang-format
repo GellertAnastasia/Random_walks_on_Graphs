@@ -1,0 +1,28 @@
+BasedOnStyle: Microsoft
+
+Language: Cpp
+
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+
+ColumnLimit: 100
+
+BreakBeforeBraces: Attach
+
+AllowShortFunctionsOnASingleLine: Empty
+AllowShortIfStatementsOnASingleLine: Never
+
+SpaceBeforeParens: ControlStatements
+
+PointerAlignment: Left
+
+NamespaceIndentation: None
+
+SortIncludes: CaseSensitive
+IncludeBlocks: Regroup
+
+AccessModifierOffset: -4
+
+AlignConsecutiveAssignments: false
+AlignConsecutiveDeclarations: false
